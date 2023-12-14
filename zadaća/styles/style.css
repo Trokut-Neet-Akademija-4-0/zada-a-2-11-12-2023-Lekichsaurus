@@ -1,0 +1,141 @@
+body::after {
+  content: "";
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+header,
+main,
+footer {
+  margin: 10px auto;
+  max-width: 991px;
+  text-align: center;
+}
+
+header {
+  height: 110px;
+}
+
+nav {
+  display: inline-block;
+}
+
+nav table {
+  margin-top: 20px;
+}
+
+.navList {
+  display: inline-block;
+  list-style: none;
+  font-size: 1.2rem;
+  padding: 0 20px;
+}
+
+.navList a {
+  color: black;
+}
+
+.navList a:hover {
+  color: black;
+  text-shadow: black 1px 5px 10px;
+}
+.navLeft {
+  width: 150px;
+}
+
+.logo {
+  width: 80%;
+  height: 80%;
+}
+
+.navCenter {
+  width: 500px;
+}
+
+.navRight {
+  width: 250px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.navRight button {
+  border-radius: 10px;
+}
+
+.navRight button:hover {
+  cursor: pointer;
+  background-color: rgb(200, 197, 197);
+}
+
+#search {
+  width: 200px;
+  margin: 10px 0;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+#searchIcon {
+  width: 15px;
+  height: 10px;
+}
+
+main:not(.contactMain):not(.serviceMain) {
+  border-top: 2px solid black;
+}
+
+main h1 {
+  font-family: "Dancing Script", cursive;
+  letter-spacing: 1rem;
+  font-size: 2.5rem;
+}
+
+main p {
+  font-size: 1.3rem;
+  line-height: 35px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+
+footer h2 {
+  padding: 20px;
+  font-family: "Dancing Script", cursive;
+  font-family: "Whisper", cursive;
+  font-size: 4rem;
+  letter-spacing: 0.8rem;
+}
+
+footer h2:not(.contactH2):not(.serviceH2) {
+  border-top: 2px solid black;
+}
+
+.socialsLogo {
+  margin: 30px;
+  width: 30px;
+  height: 30px;
+}
+
+.socialsLogo:hover {
+  box-shadow: 10px 5px 20px black;
+}
+
+#flname:active {
+  background-color: rgb(200, 197, 197);
+  border: 2px solid black;
+}
+
+#message:focus {
+  background-color: rgb(29, 29, 29);
+  color: white;
+}
+
+#submit:hover {
+  cursor: pointer;
+  background-color: rgb(221, 221, 221);
+  border: 1px solid rgb(144, 144, 144);
+  box-shadow: 2px 2px 15px black;
+}

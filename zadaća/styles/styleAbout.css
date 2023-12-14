@@ -1,0 +1,14 @@
+.bodyAbout::after {
+  background: url(https://www.luxuryandexpensive.com/img/h3_1.jpg);
+  background-size: cover;
+}
+
+.aboutMainImageSection {
+  border-top: 2px solid black;
+}
+
+.aboutMainImageSection img {
+  margin: 20px;
+  width: 450px;
+  height: 287px;
+}

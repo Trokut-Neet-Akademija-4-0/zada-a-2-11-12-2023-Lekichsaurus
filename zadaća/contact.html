@@ -11,11 +11,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Whisper&display=swap" rel="stylesheet" />
 
     <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/styleIndex.css" />
+    <link rel="stylesheet" href="./styles/styleContact.css" />
 
-    <title>Naslovna</title>
+    <title>Contact</title>
   </head>
-  <body class="bodyIndex">
+  <body class="bodyContact">
     <header>
       <nav>
         <table>
@@ -48,10 +48,9 @@
 
             <div>
               <td class="navRight">
-                Search:
                 <form action="">
-                  <label for="search"></label>
-                  <input type="search" name="name" id="search" placeholder=" Enter a car you're looking for" />
+                  <label for="search">Search: </label>
+                  <input type="search" name="name" id="search" placeholder="Enter a car you're looking for" />
                   <button>
                     <img id="searchIcon" src="./images/search.svg" alt="search ikona" />
                   </button>
@@ -63,26 +62,66 @@
       </nav>
     </header>
 
-    <main>
-      <p>
-        Welcome to the epitome of luxury automotive experiences! We invite you to explore a world where sophistication meets the open road. Discover
-        our exclusive fleet on the Services page and connect with our dedicated team on the Contact page to tailor your dream drive - because your
-        journey deserves the finest in every detail.
-      </p>
+    <main class="contactMain">
+      <table class="contactTable">
+        <tr>
+          <td>
+            <form action="" method="get">
+              <p>
+                <label for="flname">First and last name: </label>
+                <br />
+                <input type="text" name="flname" id="flname" placeholder="Enter your name" />
+              </p>
 
-      <figure class="indexMainFigure">
-        <img src="./images/car-rental.jpg" alt="" />
-      </figure>
+              <p>
+                <label for="email">Email: </label>
+                <br />
+                <input type="email" name="email" id="email" placeholder="Enter your email" required />
+              </p>
+
+              <p>
+                <label for="tel">Telephone: </label>
+                <br />
+                <input type="tel" name="tel" id="tel" placeholder="Enter your phone number" />
+              </p>
+
+              <p>
+                <label for="message">Send a request:</label>
+                <br />
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Write your message"></textarea>
+                <input type="submit" name="submit" id="submit" value="Send your query" />
+              </p>
+            </form>
+          </td>
+
+          <td>
+            <figure>
+              <img src="https://www.gt-cars.pl/img/slider-01.jpg" alt="" />
+            </figure>
+
+            <ul class="contactContact">
+              <span>Information</span>
+              <li>OIB: 333444555</li>
+              <li>Mail: <a href="mailto">rentacar@luxury.com</a></li>
+              <li>Telephone: <a href="tel">+123456789</a></li>
+            </ul>
+          </td>
+        </tr>
+      </table>
     </main>
 
-    <footer>
-      <h2>Follow us on</h2>
+    <footer class="footerContact">
+      <h2 class="contactH2">Follow us on</h2>
       <a href="https://github.com/topics/car-rental" target="none"><img class="socialsLogo" src="./images/github.svg" alt="" /></a>
+
       <a href="https://www.instagram.com/rentcars.com//" target="none"><img class="socialsLogo" src="./images/instagram.svg" alt="" /></a>
+
       <a href="https://www.linkedin.com/company/enterprise-rent-a-car-croatia/?originalSubdomain=hr" target="none"
         ><img class="socialsLogo" src="./images/linkedin.svg" alt=""
       /></a>
+
       <a href="https://www.facebook.com/Rentacarsibenik/" target="none"><img class="socialsLogo" src="./images/facebook.svg" alt="" /></a>
+
       <a href="https://www.youtube.com/channel/UCxbyFLefv_8K37OqunFTAXA" target="none"
         ><img class="socialsLogo" src="./images/youtube.svg" alt=""
       /></a>
