@@ -1,5 +1,6 @@
 .bodyServices::after {
   background: url(https://www.rentallsoftware.com/wp-content/uploads/2021/11/pexels-torsten-dettlaff-70912-scaled-1-2048x1280.jpg.webp);
+  position: absolute;
 }
 .servicesTable {
   text-align: center;
