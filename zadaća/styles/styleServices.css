@@ -23,7 +23,8 @@
   height: 30px;
   width: 30px;
   border-top-left-radius: 25%;
-  border: 2px solid;
+  border-top: 2px solid;
+  border-left: 2px solid;
   border-color: black white white black;
 }
 
@@ -44,24 +45,26 @@
 .serviceSection:nth-child(3)::after {
   content: "";
   position: absolute;
-  top: 1201.5px;
+  top: 1237.5px;
   left: 258px;
   height: 30px;
   width: 30px;
   border-bottom-left-radius: 25%;
-  border: 2px solid;
+  border-bottom: 2px solid;
+  border-left: 2px solid;
   border-color: white white black black;
 }
 
 .servicesFooter::after {
   content: "";
   position: absolute;
-  top: 1813.5px;
+  top: 1848px;
   left: 256px;
   height: 100px;
   width: 30px;
   border-top-left-radius: 25%;
-  border: 2px solid;
+  border-top: 2px solid;
+  border-left: 2px solid;
   border-color: black white white black;
 }
 
@@ -79,12 +82,14 @@
   height: 570px;
   width: 500px;
   border-radius: 10px;
+  padding-right: 20px;
 }
 
 .servicesTaxi {
   border-radius: 10px;
   height: 400px;
   width: 600px;
+  padding-left: 20px;
 }
 
 .servicesMainButton {
